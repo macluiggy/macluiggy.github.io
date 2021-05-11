@@ -1,57 +1,69 @@
 #wrapper {
-	background-color: white;
-	padding: 2em 0;
+    background-color: white;
+    padding: 2em 0;
+
     .container {
-    	display: grid;
-    	grid-gap: 1em;
-    	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    	width: 80%;
-    	color: black;
-    	margin: auto;
+        display: grid;
+        grid-gap: 1em;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        width: 80%;
+        color: black;
+        margin: auto;
+
         .project_container {
-            text-align: center;
             border: solid rgb(94 66 166);
             box-shadow: 1px 1px 10px black;
             padding: 1em;
+            position: relative;
+            display: grid;
+            grid-template-rows: 1fr 0.4fr 0.5fr;
 
             .img_project_container {
-            	overflow: hidden;
-            	height: 300px;
-            	img {
-            		width: 100%;
-            	}
+                overflow: hidden;
+                height: 200px;
+
+                img {
+                    width: 100%;
+                }
             }
 
             .description {
+            	position: relative;
+            	height: 100%;
                 h2 {
-                	color: black;
+                    color: black;
                 }
 
                 p {}
             }
 
             .interact {
-            	.actions {
-            		//border: solid;
-            		justify-content: center;
-            		li {
-            			font-size: 1.1em;
-            			font-weight: bold;
-            			padding-left: 0;
-            			a {
-            				border: solid rgb(94 66 166) !important;
-            				color: rgb(94 66 166) !important;
-            				font-weight: bold;
-            			}
-            		}
-            	}
-            	.icons {
-            		font-size: 2.5em;
-            		
-            		i {
-            			margin: 0 0.1em;
-            		}
-            	}
+                bottom: 0%;
+
+                .actions {
+                    //border: solid;
+                    justify-content: center;
+
+                    li {
+                        font-size: 1.1em;
+                        font-weight: bold;
+
+                        a {
+                            border: solid rgb(94 66 166) !important;
+                            color: rgb(94 66 166) !important;
+                            font-weight: bold;
+                            margin: 0.3em 0;
+                        }
+                    }
+                }
+
+                .icons {
+                    font-size: 2.5em;
+
+                    i {
+                        margin: 0 0.1em;
+                    }
+                }
             }
         }
     }
