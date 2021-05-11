@@ -3231,7 +3231,7 @@ body.is-preload #sidebar nav ul li {
   color: #5e42a6 !important;
   font-weight: bold;
   margin: 0.3em 0;
-  transition: background-color, color 0.5s;
+  transition: background-color color 0.5s;
 }
 #wrapper .container .project_container .interact .actions li a:hover {
   background-color: #5e42a6 !important;
@@ -3251,6 +3251,9 @@ body.is-preload #sidebar nav ul li {
 }
 #wrapper .container .project_container .interact .icons .fa-js-square {
   color: #efd81d;
+}
+#wrapper .container .project_container .interact .icons .fa-sass {
+  color: #c76494;
 }
 
 /*# sourceMappingURL=main.css.map */
