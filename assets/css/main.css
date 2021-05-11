@@ -3185,7 +3185,6 @@ body.is-preload #sidebar nav ul li {
 
 #wrapper {
   background-color: white;
-  padding: 2em 0;
 }
 #wrapper .container {
   display: grid;
@@ -3232,12 +3231,26 @@ body.is-preload #sidebar nav ul li {
   color: #5e42a6 !important;
   font-weight: bold;
   margin: 0.3em 0;
+  transition: background-color, color 0.5s;
+}
+#wrapper .container .project_container .interact .actions li a:hover {
+  background-color: #5e42a6 !important;
+  color: white !important;
 }
 #wrapper .container .project_container .interact .icons {
   font-size: 2.5em;
 }
 #wrapper .container .project_container .interact .icons i {
   margin: 0 0.1em;
+}
+#wrapper .container .project_container .interact .icons .fa-html5 {
+  color: #dd4b25;
+}
+#wrapper .container .project_container .interact .icons .fa-css3-alt {
+  color: #016cb4;
+}
+#wrapper .container .project_container .interact .icons .fa-js-square {
+  color: #efd81d;
 }
 
 /*# sourceMappingURL=main.css.map */

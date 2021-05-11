@@ -1,6 +1,5 @@
 #wrapper {
     background-color: white;
-    padding: 2em 0;
 
     .container {
         display: grid;
@@ -53,6 +52,11 @@
                             color: rgb(94 66 166) !important;
                             font-weight: bold;
                             margin: 0.3em 0;
+                            transition: background-color, color 0.5s;
+                        }
+                        a:hover {
+                        	background-color: rgb(94 66 166) !important;
+                        	color: white !important;
                         }
                     }
                 }
@@ -62,6 +66,15 @@
 
                     i {
                         margin: 0 0.1em;
+                    }
+                    .fa-html5 {
+                    	color: #dd4b25;
+                    }
+                    .fa-css3-alt {
+                    	color: #016cb4;
+                    }
+                    .fa-js-square {
+                    	color: #efd81d;
                     }
                 }
             }
