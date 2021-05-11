@@ -3184,51 +3184,10 @@ body.is-preload #sidebar nav ul li {
 }
 
 #wrapper {
-  background-color: white;
-  padding: 2em 0;
+  background-color: red !important;
 }
-#wrapper .container {
-  display: grid;
-  grid-gap: 1em;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  width: 80%;
-  color: black;
-  margin: auto;
-}
-#wrapper .container .project_container {
+#wrapper .project_container {
   text-align: center;
-  border: solid #5e42a6;
-  box-shadow: 1px 1px 10px black;
-  padding: 1em;
-}
-#wrapper .container .project_container .img_project_container {
-  overflow: hidden;
-  height: 300px;
-}
-#wrapper .container .project_container .img_project_container img {
-  width: 100%;
-}
-#wrapper .container .project_container .description h2 {
-  color: black;
-}
-#wrapper .container .project_container .interact .actions {
-  justify-content: center;
-}
-#wrapper .container .project_container .interact .actions li {
-  font-size: 1.1em;
-  font-weight: bold;
-  padding-left: 0;
-}
-#wrapper .container .project_container .interact .actions li a {
-  border: solid #5e42a6 !important;
-  color: #5e42a6 !important;
-  font-weight: bold;
-}
-#wrapper .container .project_container .interact .icons {
-  font-size: 2.5em;
-}
-#wrapper .container .project_container .interact .icons i {
-  margin: 0 0.1em;
 }
 
 /*# sourceMappingURL=main.css.map */
