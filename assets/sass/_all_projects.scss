@@ -3,23 +3,25 @@
 
     .container {
         display: grid;
-        grid-gap: 1em;
+        grid-gap: 2em;
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
         width: 80%;
         color: black;
         margin: auto;
+        font-size: 0.9em;
 
         .project_container {
             border: solid rgb(94 66 166);
             box-shadow: 1px 1px 10px black;
             padding: 1em;
             position: relative;
-            display: grid;
+            display: flex;
+            flex-direction: column;
             grid-template-rows: 1fr 0.4fr 0.5fr;
 
             .img_project_container {
                 overflow: hidden;
-                height: 200px;
+                height: 120px;
 
                 img {
                     width: 100%;
@@ -28,12 +30,18 @@
 
             .description {
             	position: relative;
-            	height: 100%;
+            	height: 33vh;
+                display: flex;
+                flex-direction: column;
                 h2 {
                     color: black;
+                    //border: solid;
+                    height: 70px;
+                    font-size: 1.5em;
                 }
 
-                p {}
+                p {
+                text-align: justify;                }
             }
 
             .interact {
@@ -51,7 +59,7 @@
                             border: solid rgb(94 66 166) !important;
                             color: rgb(94 66 166) !important;
                             font-weight: bold;
-                            margin: 0.3em 0;
+                            margin: 0.3em;
                             transition: background-color 0.5s, color 0.5s;
                         }
                         a:hover {

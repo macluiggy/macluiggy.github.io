@@ -3188,33 +3188,42 @@ body.is-preload #sidebar nav ul li {
 }
 #wrapper .container {
   display: grid;
-  grid-gap: 1em;
+  grid-gap: 2em;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   width: 80%;
   color: black;
   margin: auto;
+  font-size: 0.9em;
 }
 #wrapper .container .project_container {
   border: solid #5e42a6;
   box-shadow: 1px 1px 10px black;
   padding: 1em;
   position: relative;
-  display: grid;
+  display: flex;
+  flex-direction: column;
   grid-template-rows: 1fr 0.4fr 0.5fr;
 }
 #wrapper .container .project_container .img_project_container {
   overflow: hidden;
-  height: 200px;
+  height: 120px;
 }
 #wrapper .container .project_container .img_project_container img {
   width: 100%;
 }
 #wrapper .container .project_container .description {
   position: relative;
-  height: 100%;
+  height: 33vh;
+  display: flex;
+  flex-direction: column;
 }
 #wrapper .container .project_container .description h2 {
   color: black;
+  height: 70px;
+  font-size: 1.5em;
+}
+#wrapper .container .project_container .description p {
+  text-align: justify;
 }
 #wrapper .container .project_container .interact {
   bottom: 0%;
@@ -3230,7 +3239,7 @@ body.is-preload #sidebar nav ul li {
   border: solid #5e42a6 !important;
   color: #5e42a6 !important;
   font-weight: bold;
-  margin: 0.3em 0;
+  margin: 0.3em;
   transition: background-color 0.5s, color 0.5s;
 }
 #wrapper .container .project_container .interact .actions li a:hover {
