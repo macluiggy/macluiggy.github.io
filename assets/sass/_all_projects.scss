@@ -18,7 +18,12 @@
             display: flex;
             flex-direction: column;
             grid-template-rows: 1fr 0.4fr 0.5fr;
-
+            h2 {
+                color: black;
+                //border: solid;
+                height: 70px;
+                font-size: 1.5em;
+            }
             .img_project_container {
                 overflow: hidden;
                 height: 120px;
@@ -30,18 +35,16 @@
 
             .description {
             	position: relative;
-            	height: 33vh;
+            	height: 20vh;
                 display: flex;
                 flex-direction: column;
-                h2 {
-                    color: black;
-                    //border: solid;
-                    height: 70px;
-                    font-size: 1.5em;
-                }
+                align-items: flex-end;
+                //border: solid;
+                padding: 0;
 
                 p {
-                text-align: justify;                }
+                    margin-top: 1em;
+                    text-align: justify;            }
             }
 
             .interact {

@@ -3204,6 +3204,11 @@ body.is-preload #sidebar nav ul li {
   flex-direction: column;
   grid-template-rows: 1fr 0.4fr 0.5fr;
 }
+#wrapper .container .project_container h2 {
+  color: black;
+  height: 70px;
+  font-size: 1.5em;
+}
 #wrapper .container .project_container .img_project_container {
   overflow: hidden;
   height: 120px;
@@ -3213,16 +3218,14 @@ body.is-preload #sidebar nav ul li {
 }
 #wrapper .container .project_container .description {
   position: relative;
-  height: 33vh;
+  height: 20vh;
   display: flex;
   flex-direction: column;
-}
-#wrapper .container .project_container .description h2 {
-  color: black;
-  height: 70px;
-  font-size: 1.5em;
+  align-items: flex-end;
+  padding: 0;
 }
 #wrapper .container .project_container .description p {
+  margin-top: 1em;
   text-align: justify;
 }
 #wrapper .container .project_container .interact {
